@@ -1,0 +1,15 @@
+ENCAPSULAMIENTO:Encerrar atributos que no son directos
+this.n=n
+this.n es el atributo de la clase
+n es el nombre
+# hace el atriobuto privado
+
+class Fraccion {
+#n; #d;
+constructor (num, den) {
+this.#n = num;
+this.#d = den;
+}
+}
+
+algoritmo bresenham
